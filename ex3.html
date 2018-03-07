@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exercise 3</title>
+	<link rel="stylesheet" type="text/css" href="ex3.css">
+</head>
+<body>
+	<div id="navbar">
+		<div id="left">
+			<span><img src="img/003-four-squares.png"></span>
+			<span>Boards</span>
+			<span><img src="img/004-search.png"></span>
+			<span><input type="search" placeholder="Search ..."></span>
+		</div>
+		<div id="middle">
+			<span><a href="#"><img id="logo" src="img/logo.png"></a></span>
+			<span><a href="#"><img src="img/005-arrows.png"></a></span>
+		</div>
+		<div id="right">
+			<span><a href="#"><img id="avatar" src="img/harry.jpg"></a></span>
+			<span>Hello, Harry!</span>
+			<span><a href="#"><img src="img/006-round-bell.png"></a></span>
+			<span><a href="#"><img src="img/008-three.png"></a></span>
+		</div>
+	</div>
+	<div class="main">
+		<div class="summary">
+			<div><img src="img/favorite-white.png"></div>
+			<p>Planner Board - Summary</p>
+			<p>Netguru</p>
+			<a href="#"><img src="img/007-cancel.png"></a>
+		</div>
+		<div class="container-small"></div>
+		<div class="container"></div>
+		<div class="container-small"></div>
+		<div class="container">
+			<h3>USER'S ACTIVITY</h3>
+			<img src="img/002-ellipsis.png"  class="options"><br>
+			<table>
+				<tr>
+					<td><img src="img/harry.jpg"></td>
+					<td>Harry Potter</td>
+					<td>2 min ago</td>
+					<td>
+						<div class="progressBar">
+						  <div class="completed"></div>
+						  <div class="overdue"></div>
+						</div>
+					</td>
+					<td>12/24</td>
+				</tr>
+				<tr>
+					<td><img src="img/hermione.jpg"></td>
+					<td>Hermione Granger</td>
+					<td>2h ago</td>
+					<td>
+						<div class="progressBar">
+						  <div class="completed"></div>
+						  <div class="overdue"></div>
+						</div>
+					</td>
+					<td>21/22</td>
+				</tr>
+				<tr>
+					<td><img src="img/ron.jpg"></td>
+					<td>Ronald Weasley</td>
+					<td>3 months ago</td>
+					<td>
+						<div class="progressBar">
+						  <div class="completed"></div>
+						  <div class="overdue"></div>
+						</div>
+					</td>
+					<td>8/10</td>
+				</tr>
+				<tr>
+					<td><img src="img/albus.jpg"></td>
+					<td>Albus Dumbledore</td>
+					<td>91 years ago</td>
+					<td>
+						<div class="progressBar">
+						  <div class="completed"></div>
+						  <div class="overdue"></div>
+						</div>
+					</td>
+					<td>12/26</td>
+				</tr>
+			</table>
+		</div>
+		<div class="container">
+			<h3>LAST TASKS</h3>
+			<img src="img/002-ellipsis.png"  class="options"><br>
+			<ul>
+				<li>
+					<label class="cb">Create document list
+					  <input type="checkbox">
+					  <span class="checkmark"></span>
+					</label>
+					<span class="label blue">1 day</span>
+					<p>Design Sprint</p>
+				</li>
+				<li>
+					<label class="cb">Add new user to board
+					  <input type="checkbox" checked="checked">
+					  <span class="checkmark"></span>
+					</label>
+					<p>Design Sprint</p>
+				</li>
+				<li>
+					<label class="cb">Create document list
+					  <input type="checkbox">
+					  <span class="checkmark"></span>
+					</label>
+					<span class="label red">1 day</span>
+					<p>Design Sprint</p>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<label class="cb">Create Document List
+					  <input type="checkbox">
+					  <span class="checkmark"></span>
+					</label>
+					<p>Design Sprint</p>
+				</li>
+				<li>
+					<label class="cb">Add new user to board
+					  <input type="checkbox" checked="checked">
+					  <span class="checkmark"></span>
+					</label>
+					<span class="label orange">1 day</span>
+					<p>Design Sprint</p>
+				</li>
+				<li>
+					<label class="cb">Create document list
+					  <input type="checkbox">
+					  <span class="checkmark"></span>
+					</label>
+					<span class="label red">1 day</span>
+					<p>Design Sprint</p>
+				</li>
+			</ul>
+		</div>
+		<button id="add" title="Add project"></button>
+	</div>
+</body>
+</html>
